@@ -34,7 +34,7 @@ int main()
 
 	// essentials:
 	bool wsaSuccess = false;
-	const std::array<std::string, 2> knownPeerIpAddresses{ "10.0.0.226", "10.0.0.49"};
+	const std::array<std::string, 2> knownPeerIpAddresses{ "127.0.0.1", "127.0.0.1" };
 	SOCKET localSocket = INVALID_SOCKET;
 
 	std::mutex mtx;
